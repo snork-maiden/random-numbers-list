@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import { getRandomNumber } from '@/utils'
 import ItemsListItem from './ItemsListItem.vue'
+import { RANGES } from '@/config'
 
-const itemsNumber = getRandomNumber(100, 1000)
+const itemsNumber = getRandomNumber(RANGES.verticalList)
 </script>
 
 <template>

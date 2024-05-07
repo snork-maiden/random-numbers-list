@@ -1,7 +1,8 @@
 <script setup lang="ts">
+import { RANGES } from '@/config'
 import { getRandomNumber } from '@/utils'
 
-const value = getRandomNumber(0, 10000)
+const value = getRandomNumber(RANGES.randomNumber)
 </script>
 
 <template>
