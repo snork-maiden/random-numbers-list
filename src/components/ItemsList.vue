@@ -35,7 +35,8 @@ function createIncreasingArray(number: number): number[] {
 }
 
 .item {
-  padding: 1em;
-  background-color: rgb(216, 221, 247);
+  padding: 2em;
+  background-color: var(--block-color-background);
+  border-radius: var( --border-radius);
 }
 </style>

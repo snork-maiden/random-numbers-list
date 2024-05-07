@@ -15,8 +15,11 @@ const value = getRandomNumber(RANGES.randomNumber)
   place-items: center;
   width: 3em;
   aspect-ratio: 1/1;
-  border: 2px solid salmon;
-  border-radius: 10px;
+  font-weight: 500;
+  color: var(--item-text-color);
+  border: 2px solid var(--item-text-color);
+  background-color: var(--item-color-background);
+  border-radius: var(--border-radius);
   cursor: default;
   user-select: none;
   transition: transform 0.2s;
