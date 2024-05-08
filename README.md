@@ -1,18 +1,14 @@
-# random-numbers-list
+# Random Numbers List
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a single-page application (SPA) built with Vue.js, consisting of a vertical list with a random number of items. Each item in the vertical list contains a horizontal list with a random number of items (more than 10). Each item is displayed as a square with rounded corners, showing a random number. When hovering over the square, it animates by decreasing its size by 20%.
 
-## Recommended IDE Setup
+Perfomance optimised with Virlual list from Vuetify
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Stack
+- Vue.js
+- Vite
+- Vite-plugin-vuetify
+  
 
 ## Project Setup
 
